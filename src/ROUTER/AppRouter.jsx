@@ -9,6 +9,7 @@ import AdminDashboard from "../COMPOENTS/Admin/AdminDashboard"
 import AddProduct from "../COMPOENTS/Admin/AddProduct"
 import UserCart from "../COMPOENTS/User/UserCart"
 import ProtectedRoutes from "./ProtectedRoutes"
+import Signup from "../COMPOENTS/Common/Signup"
 
 const router = createBrowserRouter([
     {
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
     {
         path:"/login",
         element:<Login/>
+    },
+    {
+        path:"/signup",
+        element:<Signup/>
     },
     {
         path:"/user",
